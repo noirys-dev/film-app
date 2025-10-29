@@ -2,7 +2,7 @@ import 'package:filmler_app/data/entity/filmler.dart';
 import 'package:flutter/material.dart';
 
 class DetaySayfa extends StatefulWidget {
-  Filmler film;
+  final Filmler film;
   DetaySayfa({required this.film});
 
   @override
