@@ -32,7 +32,6 @@ dependencies:
     sdk: flutter
   flutter_bloc:
   path:
-  sqflite:
   dio: 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,8 +61,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - resimler/
-    - veritabani/filmler.sqlite
+ 
 
   # To add assets to your application, add an assets section, like this:
   # assets:
